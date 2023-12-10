@@ -1,5 +1,34 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
-.footer {
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+/* html {
+  background-color: #C8E6C9;
+} */
+
+body{
+  background-color: #C8E6C9;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column;  */
+}
+
+main {
+  min-width: 80vw;
+  min-height: 80vh;
+  border-radius: 2%;
+  box-shadow: 2px 2px 4px gray;
+  background-color: #fff;
+}
+
+/* .footer {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -16,4 +45,4 @@
 
 .footer span {
   font-size: 14px;
-}
+} */
