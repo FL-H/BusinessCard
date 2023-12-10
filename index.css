@@ -10,7 +10,7 @@
   background-color: #C8E6C9;
 } */
 
-body{
+body {
   background-color: #C8E6C9;
   height: 100vh;
   width: 100vw;
@@ -26,6 +26,60 @@ main {
   border-radius: 2%;
   box-shadow: 2px 2px 4px gray;
   background-color: #fff;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2% 0 0 2%;
+  gap: 5vh;
+}
+
+.asidetop {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: auto; */
+
+  /* align-items: flex-end; */
+  background-color: #2E7D32;
+  /* background-color: #3cfd45; */
+  width: 30%;
+  min-width: 30%;
+  height: 55%;
+  min-height: 55vh;
+  /* 左上 | 右上 | 右下 | 左下 */
+  border-radius: 2% 0 0 0;
+}
+
+.innerbox {
+  margin-top: auto;
+  padding: 5% 10%;
+}
+
+.addressbox {
+  margin-bottom: 10%;
+}
+
+.flex {
+  display: flex;
+  gap: 2%;
+  /* outline: 1px solid #C8E6C9; */
+}
+
+p {
+  font-size: 8px;
+  color: #fff;
+}
+
+.asidebottom {
+  background-color: #2E7D32;
+  width: 30%;
+  min-width: 30%;
+
+  height: 20%;
+  min-height: 20vh;
+  /* 左上 | 右上 | 右下 | 左下 */
+  border-radius: 0 0 0 2%;
 }
 
 /* .footer {
